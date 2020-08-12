@@ -52,5 +52,4 @@ except INSTApi.utils.Errors.ClientLoginError:
 except:
     print('Authorization: error')
     return False
-</code>
 ```
