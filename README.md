@@ -5,6 +5,7 @@ It contains not all possible methods.
 
 Example:
 
+<code>
 from INSTApi.Client import INSTApi_Client
 
 login = 'YOUR_LOGIN'
@@ -51,4 +52,5 @@ except INSTApi.utils.Errors.ClientLoginError:
 except:
     print('Authorization: error')
     return False
+</code>
 
