@@ -5,7 +5,7 @@ It contains not all possible methods.
 
 Example:
 
-<code>
+```python
 from INSTApi.Client import INSTApi_Client
 
 login = 'YOUR_LOGIN'
@@ -53,4 +53,4 @@ except:
     print('Authorization: error')
     return False
 </code>
-
+```
