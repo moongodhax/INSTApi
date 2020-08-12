@@ -1,7 +1,6 @@
 # INSTApi
-Python Instagram Private Api
-It's Instagram's mobile API. 
-It contains not all possible methods.
+### Python Instagram Private Api 
+It's Instagram's mobile API. Contains not all possible methods but it can pass instagram challenge.
 
 Example:
 
