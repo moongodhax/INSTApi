@@ -5,10 +5,20 @@ from .utils.services.Publish import INSTApi_Publish
 from .utils.endpoints.Feed import INSTApi_Feed
 from .utils.endpoints.Challenge import INSTApi_Challenge
 from .utils.endpoints.User import INSTApi_User
+from .utils.endpoints.Friendships import INSTApi_Friendships
 
 import requests
 
-class INSTApi_Client(INSTApi_Account, INSTApi_Media, INSTApi_Upload, INSTApi_Publish, INSTApi_Feed, INSTApi_Challenge, INSTApi_User):
+class INSTApi_Client(
+                     INSTApi_Account, 
+                     INSTApi_Media, 
+                     INSTApi_Upload, 
+                     INSTApi_Publish, 
+                     INSTApi_Feed, 
+                     INSTApi_Challenge, 
+                     INSTApi_User, 
+                     INSTApi_Friendships
+                    ):
     def __init__(me, username, password, proxy = None, device_string = None):
         me.s = requests.Session()
         
