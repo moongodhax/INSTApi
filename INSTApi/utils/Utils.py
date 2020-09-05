@@ -71,8 +71,8 @@ class INSTApi_Utils:
         return me.generate_uuid(False, modified_seed)
   
     def get_device(me):
-        # return random.choice(devices)
-        return devices[0]
+        return random.choice(devices)
+        # return devices[0]
 
     def gen_user_breadcrumb(me, size):
         """
